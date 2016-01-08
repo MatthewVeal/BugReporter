@@ -60,5 +60,11 @@ namespace Bug_Reporter
             }
 
     }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            edit_bug frmchild = new edit_bug();
+            frmchild.Show();
+        }
 }
 }
